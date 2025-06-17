@@ -107,7 +107,7 @@ def pull_changes():
     dsym_path = config.get('Settings', 'dsym_path')  # Zielpfad für das Repo
 
     # check if syscon_path exist
-    if not os.path.exists(syscon_path):
+    if not os.path.exists(dsym_path):
         print(f":: error: {dsym_path} does not exist")
         return
 
