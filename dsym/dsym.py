@@ -104,14 +104,14 @@ def pull_changes():
     # read config.ini
     config = load_config()
     dotfile_repo = config.get('Settings', 'dotfile_repo')  # Git-Repo
-    dsym_path = config.get('Settings', 'dsym_path')  # Zielpfad für das Repo
+    dsym_path = config.get('Settings', 'dsym_path')  # Target for Repo
 
-    # check if syscon_path exist
+    # check if dsym_path exist
     if not os.path.exists(dsym_path):
         print(f":: error: {dsym_path} does not exist")
         return
 
-    # go to syscon_path
+    # go to dsym_path
     if not os.path.exists(os.path.join(dsym_path, ".git")):
         print(f":: error: {dsym_path} is not a Git repository")
         return
