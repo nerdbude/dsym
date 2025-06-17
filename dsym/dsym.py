@@ -17,10 +17,10 @@ def load_config():
 # -----------------------------------------------------
 # clone dotfile-repo from config
 # -----------------------------------------------------
-def git_clone(dotfile_repo, syscon_path):
+def git_clone(dotfile_repo, dsym_path):
     print(':: DSYM (' + version + ')')
     print(f":: cloning repo {dotfile_repo} into {dsym_path}")
-    subprocess.run(["git", "clone", dotfile_repo, syscon_path], check=True)
+    subprocess.run(["git", "clone", dotfile_repo, dsym_path], check=True)
 
 # -----------------------------------------------------
 # make backup from old dots
