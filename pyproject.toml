@@ -1,0 +1,17 @@
+[build-system]
+requires = ["systemtools>=61.0"]
+build-backend = "setuptool.build_meta"
+
+[project]
+name = "dsym"
+version = "1.0.0"
+description = "DSYM: manage your dotfiles with git"
+authors = [{ name = "0x17" email = "post@nerdbude.com" }]
+license = { text = "AGPL" }
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
+
+[project.scripts]
+syscon = "dsym.cli:main"
+
