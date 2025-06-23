@@ -1,4 +1,4 @@
-<align="center"><img src="/img/logo.png" width="200"></p>
+<p align="center"><img src="/img/logo.png" width="200"></p>
 <p align="center">sync all your dotfiles with a git repo</p>
 
 <p>We all have this one folder with all our nice and beloved dotfiles. Sometimes you also have more than one PC where you want to use these dotfiles and keep them in sync or just want your dots when you configure a new device. DSYM is the lightweight python script that do the job.</p>
