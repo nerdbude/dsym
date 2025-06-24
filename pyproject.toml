@@ -7,9 +7,7 @@ name = "dsym"
 version = "1.0.0"
 description = "DSYM: manage your dotfiles with git"
 
-[[prohect.authors]] 
-name = "0x17"
-email = "post@nerdbude.com"
+authors = [ { name = "0x17", email = "post@nerdbude.com" } ]
 
 license = "AGPL"
 readme = "README.md"
