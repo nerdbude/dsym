@@ -6,7 +6,11 @@ build-backend = "setuptools.build_meta"
 name = "dsym"
 version = "1.0.0"
 description = "DSYM: manage your dotfiles with git"
-authors = [{ name = "0x17", email = "post@nerdbude.com" }]
+
+[[prohect.authors]] 
+name = "0x17"
+email = "post@nerdbude.com"
+
 license = "AGPL"
 readme = "README.md"
 requires-python = ">=3.7"
