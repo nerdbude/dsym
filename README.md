@@ -5,7 +5,7 @@
 
 ### Status
 
-alpha (don't use it on productive systems)
+working! (but on your own risk!)
 
 ### Prerequisite
 Keep the `config.ini` in the same directory like the DSYM tool and enter your credentials:<br>
