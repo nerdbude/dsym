@@ -12,7 +12,6 @@ description = "DSYM: manage your dotfiles with git"
 
 authors = [ { name = "0x17", email = "post@nerdbude.com" } ]
 
-license = "AGPL-3.0-or-later"
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies = []
@@ -20,3 +19,5 @@ dependencies = []
 [project.scripts]
 syscon = "dsym.cli:main"
 
+[project.license]
+file = "LICENSE"
